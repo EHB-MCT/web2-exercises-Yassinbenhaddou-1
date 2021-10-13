@@ -5,6 +5,12 @@
     transition: 0.3s;
     width: 20%;
     margin: 2%;
+    border-radius: 10px;
+}
+
+.pokemon img{
+    width: 100%;
+    background-color: azure;
 }
   
 .pokemon:hover {
@@ -12,5 +18,43 @@
 }
   
 .info {
-    padding: 2px 16px;
+    padding: 10px 20px;
+    font: 1em sans-serif;
+}
+
+.info h4{
+    font-weight: bolder;
+    display: block;
+    color:  #b534ff;
+    text-align: center;
+    padding: 4px 10px;
+    font-size: 20px;
+    font-variant-caps: unset;
+}
+
+.info p{
+    font-weight: bold;
+    display: block;
+    color:  #f6f2f8;
+    text-align: center;
+    padding: 4px 10px;
+    font-size: 20px;
+    background-color: #ff5151;
+}
+
+.info a{
+   
+    font-weight: bold;
+    display: block;
+    color:  #4e90fc;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    border: solid #4e90fc;
+}
+
+.info a:hover {
+    background-color: #4e90fc;
+    color: rgb(255, 255, 255);
 }
