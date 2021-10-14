@@ -5,7 +5,7 @@ let porkemonsListe;
 let oneTeam = new Team(); 
 
 window.onload = () => {
-
+    
     fetch('https://pokeapi.co/api/v2/pokemon?limit=151')
       .then(response => response.json())
       .then(data => getPokemonsData(data.results))
@@ -15,9 +15,8 @@ window.onload = () => {
 
 function getPokemonsData(pokemons) 
 {
-    console.log(pokemons);
+    //console.log(pokemons);
     
-
     pokemons.forEach(pokemon => 
         
         fetch(pokemon.url)
@@ -30,12 +29,12 @@ function getPokemonsData(pokemons)
 
 function printHtml(pokemonData)
 {
-        console.log(pokemonData);
+        //console.log(pokemonData);
 
         let type =new Array();
 
         pokemonData.types.forEach(element => {
-            console.log(element.type.name)
+           // console.log(element.type.name)
             type.push(element.type.name)
         });
         
@@ -50,6 +49,10 @@ function printHtml(pokemonData)
         </div>
         </div>`;
 }
+
+
+
+
 
 
 
