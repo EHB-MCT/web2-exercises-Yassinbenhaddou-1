@@ -29,6 +29,7 @@ window.onload = () =>
 
 function printHtml(results)
 {
+
    results.forEach(result => {
 
     console.log(result);
