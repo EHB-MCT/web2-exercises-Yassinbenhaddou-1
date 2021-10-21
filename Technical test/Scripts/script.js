@@ -5,7 +5,16 @@ window.onload = () =>{
     let peopleApiUrl = "http://api.open-notify.org/astros.json";
     let articleApiUrl = "https://api.spaceflightnewsapi.net/v3/articles";
 
-    //document.getElementById("articles").style.display = "none";
+    document.getElementById("articleBtn").onclick = () =>{
+        document.getElementById("planets").style.display = "none";
+        document.getElementById("articles").style.display = "block";
+    }
+
+    document.getElementById("planetBtn").onclick = () =>{
+        document.getElementById("planets").style.display = "block";
+        document.getElementById("articles").style.display = "none";
+    }
+    
     
 
     fetch(solarSystemApiUrl)
