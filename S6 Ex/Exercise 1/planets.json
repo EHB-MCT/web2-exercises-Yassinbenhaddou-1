@@ -1,0 +1,108 @@
+{
+    "planets":[
+        {
+            "name": "Mercury",
+            "description":"Mercury is the closest planet to the Sun and due to its proximity it is not easily seen except during twilight. For every two orbits of the Sun, Mercury completes three rotations about its axis and up until 1965 it was thought that the same side of Mercury constantly faced the Sun. Thirteen times a century Mercury can be observed from the Earth passing across the face of the Sun in an event called a transit, the next will occur on the 9th May 2016.",
+            "imgUrl": "https://i.ibb.co/SwcjXFV/mercury.png",
+            "Diameter":	"4,879 km",
+            "Mass":	"3.29 × 10^23 kg ",
+            "Moons": ["None"],
+            "Orbit Distance": "57,909,227 km",
+            "Orbit Period":	"88 days",
+            "Surface Temperature": "-173 to 427°C",
+            "First Record":	"14th century BC",
+            "Recorded By": "Assyrian astronomers"
+        },
+        {
+            "name": "Venus",
+            "description":"Venus is the second planet from the Sun and is the second largest terrestrial planet. Venus is sometimes referred to as the Earth’s sister planet due to their similar size and mass. Venus is named after the Roman goddess of love and beauty.",
+            "imgUrl": "https://i.ibb.co/JkPv28J/venus.png",
+            "Diameter":	"12,104 km",
+            "Mass":	"4.87 × 10^24 kg",
+            "Moons": ["None"],
+            "Orbit Distance": "108,209,475 km",
+            "Orbit Period":	"225 days",
+            "Surface Temperature": "462 °C",
+            "First Record":	"17th century BC",
+            "Recorded By": "Babylonian astronomers"
+        },
+        {
+            "name": "Earth ",
+            "description":"Earth is the third planet from the Sun and is the largest of the terrestrial planets. The Earth is the only planet in our solar system not to be named after a Greek or Roman deity. The Earth was formed approximately 4.54 billion years ago and is the only known planet to support life.",
+            "imgUrl": "https://i.ibb.co/1TmGB4w/earth.png",
+            "Diameter":	"12,756 km",
+            "Mass":	"5.97 × 10^24 kg",
+            "Moons": ["The Moon"],
+            "Orbit Distance": "149,598,262 km ",
+            "Orbit Period":	"365.24 days",
+            "Surface Temperature": "-88 to 58°C",
+            "First Record":	"2.4 million to 1.4 million years ago",
+            "Recorded By": "first human ..."
+        },
+        {
+            "name": "Mars",
+            "description":"Mars is the fourth planet from the Sun and is the second smallest planet in the solar system. Named after the Roman god of war, Mars is also often described as the “Red Planet” due to its reddish appearance. Mars is a terrestrial planet with a thin atmosphere composed primarily of carbon dioxide.",
+            "imgUrl": "https://i.ibb.co/PZwFvN3/mars.png",
+            "Diameter":	"6,792 km",
+            "Mass":	"6.39 × 10^23 kg",
+            "Moons": ["Phobos", "Deimos"],
+            "Orbit Distance": "227,943,824 km",
+            "Orbit Period":	"687 days",
+            "Surface Temperature": "-87 to -5 °C",
+            "First Record":	"2nd millennium BC",
+            "Recorded By": "Egyptian astronomers"
+        },
+        {
+            "name": "Jupiter",
+            "description":"Jupiter is the largest planet in the solar system and is the fifth planet out from the Sun. It is two and a half times more massive than all the other planets in the solar system combined. It is made primarily of gases and is therefore known as a “gas giant”.",
+            "imgUrl": "https://i.ibb.co/02Wv29j/jupiter.png",
+            "Diameter":	"142,984 km",
+            "Mass":	"1.90 × 10^27 kg",
+            "Moons": ["Io", "Europa", "Ganymede", "Callisto"],
+            "Orbit Distance": "778,340,821 km",
+            "Orbit Period":	"4,333 days",
+            "Surface Temperature": "-108°C",
+            "First Record":	"7th or 8th century BC",
+            "Recorded By": "Babylonian astronomers"
+        },
+        {
+            "name": "Saturn",
+            "description":"Best known for its fabulous ring system, Saturn is the sixth planet from the Sun and the second largest in our solar system. Like Jupiter, Saturn is a gas giant and is composed of similar gasses including hydrogen, helium and methane.",
+            "imgUrl": "https://i.ibb.co/XLP54k4/saturn.png",
+            "Diameter":	"120,536 km",
+            "Mass":	"5.68 × 10^26 kg",
+            "Moons": ["Titan", "Enceladus", "Iapetus", "Rhea"],
+            "Orbit Distance": "1,426,666,422 km",
+            "Orbit Period":	"10,756 days",
+            "Surface Temperature": "-139 °C",
+            "First Record":	"8th century BC",
+            "Recorded By": "Assyrians"
+        },
+        {
+            "name": "Uranus",
+            "description":"Uranus is the seventh planet from the Sun. It’s not visible to the naked eye, and became the first planet discovered with the use of a telescope. Uranus is tipped over on its side with an axial tilt of 98 degrees. It is often described as “rolling around the Sun on its side.”",
+            "imgUrl": "https://i.ibb.co/rQrTgMZ/uranus.png",
+            "Diameter":	"49,946 km",
+            "Mass":	"8.68 × 10^25 kg ",
+            "Moons": ["Miranda", "Titania", "Ariel", "Umbriel", "Oberon"],
+            "Orbit Distance": "2,870,658,186 km",
+            "Orbit Period":	"30,687 days ",
+            "Surface Temperature": "-197 °C",
+            "First Record":	"March 13th 1781",
+            "Recorded By": "William Herschel"
+        },
+        {
+            "name": "Neptune",
+            "description":"Neptune is the eighth planet from the Sun, making it the most distant in the solar system. This gas giant may have formed much closer to the Sun in the early solar system history before migrating out to its current position.",
+            "imgUrl": "https://i.ibb.co/2KwVzMk/neptune.png",
+            "Diameter":	"49,528 km",
+            "Mass":	"1.02 × 10^26 kg",
+            "Moons": ["Triton"],
+            "Orbit Distance": "4,498,396,441 km",
+            "Orbit Period":	"60,190 days",
+            "Surface Temperature": "-201 °C",
+            "First Record":	"September 23rd 1846",
+            "Recorded By": "Urbain Le Verrier & Johann Galle"
+        }
+    ]
+}
